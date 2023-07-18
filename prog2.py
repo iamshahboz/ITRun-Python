@@ -1,6 +1,7 @@
 # number1 = 12
 # number2 = 8
 
+# Мы можем изменить значения переменных
 # number1, number2 = number2, number1
 
 # print(number1)
@@ -11,12 +12,14 @@
 
 # print(f"His name is {name} and he is {age}")
 
+# Мы можем получить буквы по индексу
 # country = "Tajikistan"
 # l1 = country[0]
 # l_middle = country[2:]
 # l_end = country[-1]
 # print(l1, l_middle, l_end)
 
+# Через цикл мы можем получить все буквы и вывести по отдельности
 # car_model = "Range Rover"
 # for letter in car_model:
 #     print(letter)
@@ -34,15 +37,16 @@
 # word= "mouse"
 # print(word)
 # word = "Cat"
+# Результат  программы будет mouse так как мы только один раз вызвали print()
 
 name1 = "Tom"
 name2 = "Mike"
 name3 = "Elisa"
 
 if name1 == "Tom" or name3 == "Tom":
-    print("Yes, Tom is here")
+    print("Да есть Том")
 else:
-    print("No, Tom is not here")
+    print("Нет Тома тут")
 
     
 
