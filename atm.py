@@ -1,11 +1,12 @@
-# here we are saving pasword and balance
+# Мы сохраним баланс и пин код в переменных
 pin_code = 3045
 balance = 80
 
+# максимальное количество попыток
 max_attempts = 3
 attempts = 0
 
-# the system takes the password from user
+# Логика программы
 print("Добро пожаловать, ставьте карту")
 while attempts < max_attempts:
     user_pin_code = int(input("Введите пин код: "))
